@@ -40,13 +40,7 @@ class Library:
 
 
 
-print(ContactList.all_contacts)
-ContactList.add_contact("Вася Пупкин", "0700100200")
-ContactList.add_contact("Виктор Цой", "0500123456")
-# ContactList.add_contact("John Doe", "5551234")
 
-for contact in ContactList.all_contacts:
-    print(contact.name, contact.phone_number)
 
 
 
